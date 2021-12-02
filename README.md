@@ -76,3 +76,8 @@ Kafka broker is a logical process, not a phsyical entity. It can be run in a phy
 A node represents one entity in a cluster. A Kafka cluster comprises of several Kafka brokers (from 1 to many). If it is a single broker cluster, then we can still call it a Kafka cluster or simply Kafka broker. Though, sometimes when people say a Kafka cluster, they mean every thing that is needed to run Kafka i.e. including the Zookeeper cluster also.
 
 Adding more nodes is a way of scaling, but it isn't enough if we just add physical nodes, we need to run our Kafka broker processes in it and only then we can distribute the load among Kafka brokers. People use only a single Kafka cluster that is comprised of many brokers. Some organizations may also maintain multiple Kafka clusters, most typically for redundancy.
+
+----------------------------------------------------------------
+https://tomgregory.com/building-a-spring-boot-application-in-docker-and-jenkins/
+https://github.com/ujwal-gautam/jenkins-demo
+https://www.techrepublic.com/article/how-to-create-and-manage-docker-networks/
